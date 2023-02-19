@@ -1,0 +1,100 @@
+/* 検索フォームのレイアウト */
+main form {
+    font-size: larger;
+    line-height: 1.9rem;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: #ff0000 solid 2px;
+    padding: 35px;
+    line-height: 2.5rem;
+}
+
+main form .search {
+    margin-top: 20px;
+}
+
+main form .search:first-child {
+    border-bottom: #777 solid 1px;
+
+}
+
+main form dt {
+    display: block;
+    height: auto;
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+main form dd {
+    float: left;
+    width: 500px;
+}
+
+main form #discover {
+    box-sizing: border-box;
+    background-color: #00000088;
+    color: red;
+    font-size: x-large;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 40px;
+    border: #ffffff solid 1px;
+    transition: all 0.2s ease;
+
+}
+
+main form #discover:hover {
+    background-color: #fff;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+/* 検索結果のレイアウト */
+main table#results .image {
+    width: 300px;
+}
+
+main table#results img {
+    width: 300px;
+    transition: all 0.3s all;
+    vertical-align: middle;
+}
+
+main table#results img:hover {
+    /* transform: scale(1.2); */
+    filter: brightness(150%);
+
+}
+
+main table#results {
+    width: 850px;
+    margin: 50px auto;
+}
+
+main table#results th {
+    border: 1px rgba(255, 255, 255, 0.473) solid;
+}
+
+main table#results td {
+    border: 1px rgba(255, 255, 255, 0.473) solid;
+}
+
+main table#results td.image{
+    vertical-align: middle;
+    
+}
+
+main table#results .title {
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    text-decoration:underline #ff0000 3px;
+}
+
+main table#results .categ {
+    height: 30px;
+    width: 300px;
+}

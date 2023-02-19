@@ -1,0 +1,54 @@
+main section h3 {
+    font-size: xx-large;
+    margin: 30px;
+    line-height: 2.7rem;
+    text-decoration: underline orange 3px;
+}
+
+/* main section h4 {
+    font-size: larger;
+    margin: 30px;
+    line-height: 1.6rem;
+} */
+
+
+main section h4 {
+    font-size: medium;
+    padding: 0;
+    margin: 30px;
+    line-height: 2rem;
+    margin-top: 100px;
+}
+
+main #interview p {
+    font-size: medium;
+    padding: 0;
+    margin: 30px;
+    line-height: 2rem;
+    margin-bottom: 100px;
+}
+
+main section div img {
+    width: 940px;
+}
+
+/* 画像のプレビュー */
+main #preview {
+    position: relative;
+}
+
+main #preview figure {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 500px;
+    height: 520px;
+    text-align: center;
+}
+
+main #preview figure img {
+    position: absolute;
+    top: 50%;
+    width: 370px;
+    transform: translate(-50%, -50%)
+}

@@ -1,0 +1,15 @@
+#param {
+    border: 1px red solid;
+    text-align: center;
+    line-height: 2rem;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#param label {
+    margin: 20px;
+}
+
+#video {
+    text-align: center;
+}

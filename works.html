@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>宮崎英高ファンサイト</title>
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/work.css">
+  <link rel="stylesheet" type="text/css" href="css/quiz.css">
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- 背景画像を変化させる -->
+  <ul id="backImage">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+
+  <header>
+    <h1>作品集</h1>
+    <!-- <a href="./index.html">Main</a> -->
+    <a href="#main" id="canScrool"><span></span><span></span><span></span>Scroll</a>
+
+  </header>
+
+  <!-- ハンバーガーメニューにする -->
+  <nav>
+    <!-- ラジオボタンのチェックボックス -->
+    <label id="nav_menu"><input type="checkbox" value="hum"><i class="fas fa-bars"></i></label>
+    <div id="nav_close"></div>
+    <ul id="content">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./profile.html">Profile</a></li>
+      <li><a href="./works.html">Works</a></li>
+      <li><a href="./amuse.html">Amuse</a></li>
+    </ul>
+
+  </nav>
+
+  <main id="main">
+    <section>
+      <h2>宮崎氏のゲームの『特徴』</h2>
+      <p>
+        氏の率いるフロム・ソフトウェア一般受けしにくい"硬派"（一部超軟派）なゲームを多く輩出している中堅開発会社である。<br>
+
+        フロムゲー最大の特徴として、導入部分においてチュートリアルやヘルプといった措置がほとんど無く、プレーヤーは情報がないまま試行錯誤を要求される。レトロゲームのような「死んで覚える」というスタンスが特徴。<br>
+
+        また、別の要素として、限りなく「妄想」に近い「考察」が特徴として挙げられる。
+
+        昨今の演出過多・説明過剰なゲームの風潮には目もくれず、意図的に情報を制限。
+        「プレイヤーは限られた事実しか知ることのない一個人である」という演出が独特の没入感を作り出している （例によってこれも馴染めないユーザーが居ることは確か）。
+        これにより「裏がある」「奴の意図はなんだろう」「こう考えれば妥当かもしれない」といったことを脳内で再構成し、物語を補完してゆく思考パターンが生まれる。
+        <br>
+        総じて以下のような特徴があるといえよう。
+      </p>
+
+      <ul style="margin:50px 0 50px 100px;">
+        <li>一貫した硬派なゲーム作り</li>
+        <li>歯応えのある(ありすぎる)難易度</li>
+        <li>『考察』しがいのある重厚な世界観</li>
+        <li>行動の選択肢が多く、プレイヤーが楽しみを発見するゲーム性</li>
+        <li>独特な緩い関係でのオンラインプレイ</li>
+        <li>退廃的で美しい音楽</li>
+      </ul>
+      <table style="margin: 0 auto;">
+        <tr>
+          <td>
+            <img src="./images/dk1_01.jpg" alt="宮崎英高" style="width: 280px;">
+          </td>
+          <td>
+            <img src="./images/sekiro02.jpg" alt="宮崎英高" style="width: 280px;">
+          </td>
+          <td>
+            <img src="./images/bb_01.jpg" alt="宮崎英高" style="width: 280px;">
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- <section>
+      <h2>作品集早見表</h2>
+      <ul>
+        <li>
+          <ul>
+            アーマード・コアシリーズ
+            <li>アーマード・コア ラストレイヴン</li>
+            <li>アーマード・コア4</li>
+            <li>アーマード・コア フォーアンサー</li>
+          </ul>
+        </li>
+        <li>Demon's Souls</li>
+        <li>
+          DARK SOULSシリーズ
+          <ul>
+            <li>DARK SOULS</li>
+            <li>DARK SOULS II</li>
+            <li>DARK SOULS III</li>
+          </ul>
+        </li>
+        <li>Bloodborne</li>
+        <li>Déraciné</li>
+        <li>SEKIRO: SHADOWS DIE TWICE</li>
+        <li>ELDEN RING</li>
+      </ul>
+    </section> -->
+    <section>
+      <h2>作品集</h2>
+
+      <form>
+        <dl class="search clearfix">
+          <dt>
+            ジャンル
+          </dt>
+          <dd>
+            <label>
+              <input type="checkbox" id="allC" name="category" class="category" value="すべて">すべて
+            </label>
+            <label>
+              <input type="checkbox" id="ogi" name="category" class="category" value="ロボットアクション">ロボットアクション
+            </label>
+            <label>
+              <input type="checkbox" id="hira" name="category" class="category" value="3Dアクション(ソウルライク)">3Dアクション(ソウルライク)
+            </label>
+            <label>
+              <input type="checkbox" id="ii" name="category" class="category" value="その他">その他
+            </label>
+          </dd>
+        </dl>
+        <dl class="search">
+
+          <dt>
+            シリーズ
+          </dt>
+          <dd>
+            <label>
+              <input type="checkbox" id="all" name="area" class="area" value="すべて">すべて
+            </label>
+            <label>
+              <input type="checkbox" id="a" name="area" class="area" value="アーマードコア">アーマードコア
+            </label>
+            <label>
+              <input type="checkbox" id="hotel" name="area" class="area" value="ダークソウル">ダークソウル
+            </label>
+            <label>
+              <input type="checkbox" id="ryokan" name="area" class="area" value="その他">その他
+            </label>
+
+        </dl>
+        <div class="search">
+          <button id='discover' TABINDEX="1" ACCESSKEY="1">検索する</button>
+        </div>
+      </form>
+      <div id="display">
+        <table id="results">
+
+          <!-- レイアウト確認 -->
+          <!-- <tr>
+            <td rowspan="3" class="image"><img src="./images/ac_01.jpg"></td>
+            <th colspan="2" class="title">タイトル</th>
+          </tr>
+          <tr>
+            <td class="categ">てｓ</td>
+            <td class="seri">とあああ</td>
+          </tr>
+          <tr>
+            <td class="msg" colspan="2">
+              テキスト
+              テキスト
+              テキスト
+              テキスト
+              テキスト
+            </td>
+
+          </tr>
+          <tr>
+            <td rowspan="3" class="image"><img src="./images/ac_01.jpg"></td>
+            <th colspan="2" class="title">タイトル</th>
+          </tr>
+          <tr>
+            <td class="categ">てｓ</td>
+            <td class="seri">とあああ</td>
+          </tr>
+          <tr>
+            <td class="msg" colspan="2">
+              テキスト
+              テキスト
+              テキスト
+              テキスト
+              テキスト
+            </td>
+
+          </tr> -->
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>フロムゲー適正診断</h2>
+      <p style="text-align: center;">
+        ここでは、あなたがどのフロムゲームに向いているか診断できます。<br>
+        まあ、せいぜい悔いのないように選びな。
+      </p>
+
+      <div class="choose_box">
+
+        <div id="q_01" class="fit">
+          <p>難しいゲームがやりたい</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_03">はい</a></li>
+            <li class="odd"><a class="btn" href="#q_02">いいえ</a></li>
+        </ul>
+        </div>
+        <!-- 最初の選択肢 -->
+
+        <div id="q_02" style="display: none;">
+          <p>物語を楽しみたい</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_103">はい!</a></li>
+            <li class="odd"><a class="btn" href="#q_03">いいえ!</a></li>
+          </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="q_03" style="display: none;">
+          <p>アクションが好き</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_06">はい!!</a></li>
+            <li class="odd"><a class="btn" href="#q_04">いいえ!!</a></li>
+          </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="q_04" style="display: none;">
+          <p>ロボットが好き</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_05">はい!!!</a></li>
+            <li class="odd"><a class="btn" href="#q_06">いいえ!!!</a></li>
+          </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="q_05" style="display: none;">
+          <p>体が闘争を求めている</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_100">はい!!!!</a></li>
+            <li class="odd"><a class="btn" href="#q_06">いいえ!!!!</a></li>
+          </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="q_06" style="display: none;">
+          <p>中世ファンタジーが好き</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_101">はい!!!!!</a></li>
+            <li class="odd"><a class="btn" href="#q_07">いいえ!!!!!</a></li>
+          </ul>
+        </div>
+
+        <div id="q_07" style="display: none;">
+          <p>和風・忍者が好き!</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_104">はい!!!!!!</a></li>
+            <li class="odd"><a class="btn" href="#q_08">いいえ!!!!!!</a></li>
+          </ul>
+        </div>
+
+        <div id="q_08" style="display: none;">
+          <p>ゴシックホラーが好き</p>
+          <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#q_102">はい!!!!!!!</a></li>
+            <li class="odd"><a class="btn" href="#q_100">いいえ!!!!!!!</a></li>
+          </ul>
+        </div>
+
+        <div id="q_100" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <div class="h4">アーマード・コアシリーズです!!</div>
+          <span ><a style="position: absolute;top: 200px;" class="btn" href="#q_01">もどる</a></span>
+        </div>
+
+        <!-- 選択肢の答え① -->
+
+        <div id="q_101" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <div class="h4">ダークソウル・シリーズです!!</div>
+          <span><a class="btn" href="#q_01">もどる</a></span>
+        </div>
+
+        <!-- 選択肢の答え① -->
+
+        <div id="q_102" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <div class="h4">ブラッドボーンです!!</div>
+          <span><a class="btn" href="#q_01">もどる</a></span>
+        </div>
+
+        <!-- 選択肢の答え① -->
+
+        <div id="q_103" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <div class="h4">Déracinéです!!</div>
+          <span><a class="btn" href="#q_01">もどる</a></span>
+        </div>
+
+        <div id="q_104" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <div class="h4">SEKIRO: SHADOWS DIE TWICEです!!</div>
+          <span><a class="btn" href="#q_01">もどる</a></span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Copyright &copy; 2022 NakaoToshiki. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/util.js"></script>
+  <script src="./js/work_data.js"></script>
+  <script src="./js/work.js"></script>
+
+</body>
+
+</html>

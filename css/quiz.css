@@ -1,0 +1,62 @@
+.choose_box {
+    position: relative;
+    height: 20vw;
+    width: 100%;
+}
+
+.choose_box p {
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.choose_box ul {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.choose_box ul li {
+    width: calc(100% / 2 - 20px);
+    width: 200px;
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+
+.h4 {
+    width: 50%;
+    clear: both;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    background-color: #C00003;
+}
+
+.fit {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+}
+
+/* #q_06 span, #q_07 span {
+    display: block;
+    width: 100%;
+}
+
+#q_06 a, #q_07 a {
+    display: block;
+    width: 100%;
+    text-align: center;
+} */

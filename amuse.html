@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>宮崎英高ファンサイト</title>
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/amuse.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- 背景画像を変化させる -->
+  <ul id="backImage">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+
+  <header>
+    <h1>Amuse</h1>
+    <!-- <a href="./profile.html">Profile</a> -->
+
+    <a href="#main" id="canScrool"><span></span><span></span><span></span>Scroll</a>
+  </header>
+
+  <!-- ハンバーガーメニューにする -->
+  <nav>
+    <!-- ラジオボタンのチェックボックス -->
+    <label id="nav_menu"><input type="checkbox" value="hum"><i class="fas fa-bars"></i></label>
+    <div id="nav_close"></div>
+    <ul id="content">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./profile.html">Profile</a></li>
+      <li><a href="./works.html">Works</a></li>
+      <li><a href="./amuse.html">Amuse</a></li>
+    </ul>
+
+  </nav>
+
+  <main id="main">
+    <section>
+      <h2>誰でもソフトウェア</h2>
+      <p style="text-align: center;">
+        今日からあなたもフロムの敵キャラ!!<br>
+        注意:オンラインでないと動きません。
+      </p>
+      <div id="video">
+
+      </div>
+      <div id="param">
+        <label><input type="checkbox" id="eye" value="true">目</label>
+        <label><input type="checkbox" id="nose" value="true">頭</label>
+        <label><input type="checkbox" id="mouth" value="true">口</label>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Copyright &copy; 2022 NakaoToshiki. All rights reserved.
+  </footer>
+
+  <!-- <script src="../amuse/face-api.js"></script>
+  <script src="../amuse/face-api.min.js"></script> -->
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+  <script src="./js/amuse.js"></script>
+  <script src="./js/util.js"></script>
+</body>
+
+</html>
